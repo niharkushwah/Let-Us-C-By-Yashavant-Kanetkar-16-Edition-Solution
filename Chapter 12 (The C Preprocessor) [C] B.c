@@ -1,0 +1,6 @@
+ 1. #define LOWER (alpha>=97 && alpha<=122)
+ 2. #define UPPER (alpha>=65 && alpha<=90)
+ 3. #define UPPER (alpha>=65 && alpha<=90)
+    #define LOWER (alpha>=97 && alpha<=122)
+    #define YES (UPPER || LOWER)
+ 4. #define MAX(a,b) ((a>b)?a:b)
