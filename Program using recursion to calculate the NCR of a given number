@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int i,n,r;
+scanf("%d%d",&n,&r);
+printf("%d",ncr(n,r));
+}
+int fact(n){
+    int res=1;
+    for(int i=1; i<=n; i++){
+            res=res*i;
+    }
+        return res;
+}
+int ncr (n,r){
+return fact(n) / (fact(r) * fact(n - r));
+}
